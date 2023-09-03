@@ -1,0 +1,74 @@
+:root {
+  --primary-color: #5e00d0;
+  --primary-color-dark: #ba9eff;
+  --secondary-color: #fafcff;
+  --text-dark: #2a0316;
+  --extra-light: #ffffff;
+  --max-width: 1200px;
+}
+
+*,*::after,*::before{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.5rem;
+}
+
+.home {
+  position: relative;
+  height: 100vh;
+  background-color:var(--text-dark);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contents{
+display: flex;
+flex-direction: column;
+color: var(--secondary-color);
+}
+
+.contents h1{
+    margin-bottom: 18px;
+    font-size: 60px;
+}
+
+.prs{
+    margin-bottom: 18px;
+    font-size: 25px;
+    color: var(--secondary-color);
+}
+
+
+.btns__primary, .btns__secondary{
+    margin: 5px 5px;
+    background-color:var(--text-dark);
+  color: white;
+  border: 2px solid rgb(251, 193, 251); /* Adjust the border width as needed */
+  padding: 8px 8px; 
+  border-radius: 5px; /* Adjust border radius as needed */
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 20px; /* Adjust font size as needed */
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btns__primary:hover {
+  background-color: white;
+  color: rgb(24, 24, 24);
+}
+.btns__secondary:hover {
+  background-color: rgb(255, 244, 118);
+  color: rgb(16, 16, 7);
+}

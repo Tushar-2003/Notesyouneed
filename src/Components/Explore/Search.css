@@ -1,0 +1,73 @@
+:root {
+  --primary-color: #5e00d0;
+  --primary-color-dark: #ba9eff;
+  --secondary-color: #fafcff;
+  --text-dark: #2a0316;
+  --extra-light: #ffffff;
+  --max-width: 1200px;
+}
+
+*,*::after,*::before{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.5rem;
+}
+.search{
+    height: 40vh;
+    background-color: #416467;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.eyeim{
+    height: 200px;
+    transform: translate(0%, -42%);
+    rotate: -4deg;
+}
+
+.itms{
+    position: relative;
+    text-align: center;
+    bottom: 40px;
+}
+
+.ith{
+    font-size: 40px;
+    color: #fafcff;
+}
+
+.itp{
+    font-size: 15px;
+    color: #fafcff;
+    margin-bottom: 10px;
+}
+
+.btss{
+    margin: 5px 5px;
+    background-color:#416467;
+  color: white;
+  border: 2px solid rgb(251, 193, 251); /* Adjust the border width as needed */
+  padding: 8px 8px; 
+  border-radius: 5px; /* Adjust border radius as needed */
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 20px; /* Adjust font size as needed */
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btss:hover {
+  background-color: white;
+  color: rgb(24, 24, 24);
+}

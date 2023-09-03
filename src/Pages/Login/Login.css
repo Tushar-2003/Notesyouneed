@@ -1,0 +1,128 @@
+:root {
+  --primary-color: #5e00d0;
+  --primary-color-dark: #ba9eff;
+  --secondary-color: #fafcff;
+  --text-dark: #2a0316;
+  --extra-light: #ffffff;
+  --max-width: 1200px;
+}
+
+*,*::after,*::before{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.5rem;
+}
+
+.login{
+    height: calc(90vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.wrapper{
+    width: 60%;
+    height: 75%;
+    -webkit-box-shadow: 0px 5px 33px -21px rgb(45, 46, 56);
+    -moz-box-shadow:0px 5px 33px -21px rgb(45, 46, 56);
+    box-shadow: 0px 5px 33px -21px rgb(45, 46, 56);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.left,.right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.or{
+    border: 2px solid gray;
+    border-radius: 50%;
+    color: gray;
+    background-color: #ffffff;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.line{
+    width: 0.5px;
+    height: 100%;
+    background-color: lightgrey;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left:0;
+    margin: auto;
+    z-index: -1;
+}
+
+.loginButs{
+    width: 150px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.imgl{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.google{
+    background-color: #df4930;
+}
+.fb{
+    background-color: #507cc0;
+}
+.gh{
+    background-color: #000;
+}
+
+input{
+    width: 200px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.submit{
+    width: 200px;
+    padding: 15px 20px;
+    border: 1px solid #2a0316 ;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: #5e00d0;
+}
+
+.submit:hover{
+    background-color: antiquewhite;
+    color: #2a0316;
+    font-weight: bold;
+}

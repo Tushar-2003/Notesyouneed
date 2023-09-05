@@ -53,7 +53,7 @@ const Navber = () => {
                 <li className={`nav__items ${scrolling ? 'scrolling' : ''}`}><Link to='/' className='link'>Home</Link></li>
                 <li className={`nav__items ${scrolling ? 'scrolling' : ''}`}>About</li>
                 <li className={`nav__items ${scrolling ? 'scrolling' : ''}`}>Contact US</li>
-                <li className='nav__buts'><Link to='login'><a href=' ' ><button className='btna'>Sign Up / Login</button></a></Link></li>
+                <li className='nav__buts'><Link to='login'><button className='btna'>Sign Up / Login</button></Link></li>
             </ul>
         </div>
         <div onClick={navToggle} className={toggleIcon}>
